@@ -18,8 +18,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 const allowedOrigins = [
-  "http://localhost:5173",
-  // "https://quickjobs-portal.netlify.app",
+  // "http://localhost:5173",
+  "https://job-portal-25.vercel.app",
 ];
 
 app.use(
